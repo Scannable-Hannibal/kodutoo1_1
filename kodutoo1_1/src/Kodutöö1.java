@@ -8,8 +8,9 @@ public class Kodutöö1 {
         Scanner scan = new Scanner(System.in);
         System.out.println("Sisestage raadius: ");
         double r = scan.nextDouble();
-
-        ruut.ruut(r);
+        
+        ruut.ruut_p(r);
+        ruut.ruut_y(r);
         ring.ring_p(r);
         ring.ring_y(r);
 
